@@ -151,8 +151,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton("⏭️", "skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                      InlineKeyboardButton(text="Support", url=f"https://t.me/{GROUP_SUPPORT}"),
+                      InlineKeyboardButton(text="Anime", url=f"https://t.me/{UPDATES_CHANNEL}"),
                   ],[
                       InlineKeyboardButton("🗑", callback_data="cls")],
                   ]
