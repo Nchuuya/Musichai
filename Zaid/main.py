@@ -77,7 +77,7 @@ ASSID5 = 0
 ASSNAME5 = ""
 ASSUSERNAME5 = ""
 ASSMENTION5 = ""
-random_assistant = [SESSION_NAME, user, user3, user4]
+random_assistant = [ASS_CLI_1, user, user3, user4]
 
 async def start_bot():
     print("[INFO]: STARTING BOT CLIENT")
