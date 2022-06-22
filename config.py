@@ -9,8 +9,8 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "AQBGwn56ecHPnBIMBBqctHR5YLdey1h-2IXY8DU9j9OvursObq1wXEp8h4hCiwaugObwL1158yoFzJZu0T68kTc663gMlD3iV4Cs_Ef-aVZ0uW0Yuuoms9jRLNxuRXAfIIJRQdS1U8uxZAP-txeq34_1Mr9BUO0iw8d25e8SP9Gv-WHW4vzwPkBT7rfZlDTPshrNYsGCmvjoPlDpPlMHqx13bF_j66aXzan3UuU3yvJZlqC0Tw6TIui-g6vr8czBnladS062IRh-KYQrtWno0QBeUg4nDWoKTH8pVqqS8juUS2vGzw2wwVXEFxjJzvRJY5zFax3R2qleeb4CUY7ontKoAAAAAUBQ4EMA")
-BOT_TOKEN = getenv("BOT_TOKEN", "5533385439:AAFGV_cJWfG03fb1Mj55PqAI0pGfXJfzMag")
+SESSION_NAME = getenv("SESSION_NAME", "-----g6vr8czBnladS062IRh-")
+BOT_TOKEN = getenv("BOT_TOKEN", ":")
 BOT_NAME = getenv("BOT_NAME", "@AsukaRobot")
 API_ID = int(getenv("API_ID", "10501678"))
 API_HASH = getenv("API_HASH", "c28923c93d9f26ad3fa920972f3a989f")
