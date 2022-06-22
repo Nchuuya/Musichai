@@ -7,7 +7,7 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-if str(getenv("SESSION_NAME")).strip() == "-QjzNGk551CxyRfS9afdy5zxwaY-R0lBbDEF4qhwXmtnpD35pbc-wX0-d3sbmjiq7T7gVZRMEAHPkoGtQ_NOTR9bwRvFR1Ac3_dwgNaZ5Knm3Vs7uMeBFMX-6zAc22XLnbvVqTqcv-rB1zvy1Z-gxioZYUjflDBJpLUqYSLLVSTRAaJ1Q62yOCMvAAAAAUBQ4EMA":
+if str(getenv("SESSION_NAME")).strip() == "AQBAl2qFvgEqUoNMarWKGL91qpXqhfjTAG1LwA4hOBnDs7ghKBqR_Znc_BNgXw9sLjflIX3wGs6qBZylghW5U5WR4cjQGE6uhT4gm8QhIS4c-2oNg6ML96Re2K9YRCQF1_q-AMzUvvuyk_UwaaMkDLFk7QL3iwkX-QjzNGk551CxyRfS9afdy5zxwaY-R0lBbDEF4qhwXmtnpD35pbc-wX0-d3sbmjiq7T7gVZRMEAHPkoGtQ_NOTR9bwRvFR1Ac3_dwgNaZ5Knm3Vs7uMeBFMX-6zAc22XLnbvVqTqcv-rB1zvy1Z-gxioZYUjflDBJpLUqYSLLVSTRAaJ1Q62yOCMvAAAAAUBQ4EMA":
     SESSION_NAME = str(None)
 else:
     SESSION_NAME = str(getenv("SESSION_NAME"))
@@ -32,7 +32,7 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5533385439:AAFGV_cJWfG03fb1Mj55PqAI0pGfXJfzMag")
 BOT_NAME = getenv("BOT_NAME", "@AsukaRobot")
 
 API_ID = int(getenv("API_ID", "10501678"))
