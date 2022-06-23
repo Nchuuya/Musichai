@@ -40,7 +40,7 @@ async def join_group(client, message):
         )
         return
     await message.reply_text(
-        f"✅ **userbot succesfully entered chat**",
+        f"✅ **Assistant succesfully entered chat**",
     )
 
 
@@ -49,11 +49,11 @@ async def join_group(client, message):
 @authorized_users_only
 async def leave_one(client, message):
     try:
-        await USER.send_message(message.chat.id, "✅ userbot successfully left chat")
+        await USER.send_message(message.chat.id, "✅ Assistant successfully left chat")
         await USER.leave_chat(message.chat.id)
     except BaseException:
         await message.reply_text(
-            "❌ **userbot couldn't leave your group, may be floodwaits.**\n\n**» or manually kick userbot from your group**"
+            "❌ **Assistant couldn't leave your group, may be floodwaits.**\n\n**» or manually kick userbot from your group**"
         )
 
         return
@@ -67,7 +67,7 @@ async def leave_all(client, message):
 
     left = 0
     failed = 0
-    lol = await message.reply("🔄 **userbot** leaving all chats !")
+    lol = await message.reply("🔄 **Assistant** leaving all chats !")
     async for dialog in USER.iter_dialogs():
         try:
             await USER.leave_chat(dialog.chat.id)
