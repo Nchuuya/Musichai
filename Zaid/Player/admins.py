@@ -16,7 +16,7 @@ from pyrogram.types import (
 
 
 bttn = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("🔙 Go Back", callback_data="cbmenu")]]
+    [[InlineKeyboardButton("Anime", url="https://t.me/Anime_Cruise")]]
 )
 
 
